@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 4987285299737186498}
   - component: {fileID: 7576718241098494847}
   - component: {fileID: 1580420026177017160}
+  - component: {fileID: 3262208264003361325}
   m_Layer: 0
   m_Name: Crate
   m_TagString: Obstacle
@@ -28,8 +29,8 @@ Transform:
   m_GameObject: {fileID: 6092013490224451204}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 1.5, y: 1.5, z: 1.5}
+  m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -75,7 +76,7 @@ SpriteRenderer:
   m_SortingLayerID: -868787331
   m_SortingLayer: 3
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 8f34508176a418547aebdb17e1c22804, type: 3}
+  m_Sprite: {fileID: 21300000, guid: a98e0e233510cc349b95758883ca3d6f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -93,7 +94,7 @@ BoxCollider2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6092013490224451204}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
@@ -103,7 +104,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.01, y: 1.01}
+    oldSize: {x: 1.73, y: 0.97}
     newSize: {x: 1.01, y: 1.01}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -133,3 +134,42 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!60 &3262208264003361325
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6092013490224451204}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.73, y: 0.97}
+    newSize: {x: 1.01, y: 1.01}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 0.56703323, y: 0.18143983}
+      - {x: 0.37542322, y: 0.2946598}
+      - {x: 0.14356416, y: 0.32542327}
+      - {x: -0.0666019, y: 0.27660996}
+      - {x: -0.36880925, y: 0.22932361}
+      - {x: -0.61982983, y: 0.03821993}
+      - {x: -0.6998299, y: -0.09940664}
+      - {x: -0.72143984, y: -0.19059333}
+      - {x: -0.73822, y: -0.4342365}
+      - {x: -0.7222033, y: -0.4710166}
+      - {x: 0.71950483, y: -0.47015485}
+      - {x: 0.7454233, y: -0.39948964}
+      - {x: 0.73143977, y: -0.11059336}
+      - {x: 0.6906764, y: -0.017373428}
