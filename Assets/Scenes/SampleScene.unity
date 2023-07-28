@@ -264,7 +264,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 02ef217b68ecd56419b90b4cb31ef7d9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  runSpeed: 4
+  runSpeed: 5
   isGameOver: 0
   GameOverPanel: {fileID: 337884149}
   scoreText: {fileID: 214004471}
@@ -801,7 +801,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'High score: 25'
+  m_Text: 'High score: 0'
 --- !u!222 &305475891
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -830,7 +830,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &337884150
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1009,7 +1009,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Your score: 25'
+  m_Text: 'Your score: 0'
 --- !u!222 &378930324
 CanvasRenderer:
   m_ObjectHideFlags: 0
